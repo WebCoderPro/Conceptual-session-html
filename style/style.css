@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.mounten{
+    background-image: url('../image/winter\ mounten\ river.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+    
+}
+
+.mounten h1{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 40px;
+    padding-top: 70px;
+    letter-spacing: 10px;
+}
+
+.artical{
+    /* margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px; */
+    width: 80%;
+    margin: 60px auto;
+    border: 15px;
+    border-color: yellow;
+    border-style: solid;
+    padding: 50px;
+    text-align: justify;
+    background-color: aquamarine;  
+}
+ .artical h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.artical P {
+    font-size: 18px;
+}
+
+.artical p .imp{
+    font-size: 30px;
+    font-weight: 700;
+}
